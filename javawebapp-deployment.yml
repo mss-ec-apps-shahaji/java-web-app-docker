@@ -13,7 +13,7 @@ spec:
         name: javawebapp
     spec:
       containers:
-      - image: dockershahu/java-web-app-k8s:latest
+      - image: dockershahu/java-web-app-k8s
         name: javawebapp
         ports:
         - name: javawebapp
